@@ -16,6 +16,12 @@
 pip install openai
 ```
 
+Or install the exact tested versions plus a few spare packages the agent likes to use (sympy, numpy, pytest, requests):
+
+```bash
+pip install -r requirements.txt
+```
+
 No Python on this computer? On the GitHub page click **Code → Codespaces → Create codespace**. You get VS Code in the browser with `openai` already installed. Then follow the steps below in its terminal (open `.env` there with `code .env`).
 
 ## 2. Put your key in `.env` (once, and never on screen)
