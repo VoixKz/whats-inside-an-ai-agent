@@ -1,0 +1,6 @@
+{
+  "name": "What's Inside an AI Agent",
+  "image": "mcr.microsoft.com/devcontainers/python:3.12",
+  "postCreateCommand": "pip install openai",
+  "customizations": { "vscode": { "extensions": ["ms-python.python"] } }
+}

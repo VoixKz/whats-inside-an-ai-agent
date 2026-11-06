@@ -1,0 +1,12 @@
+# Your key: never commit it
+.env
+
+# Local Python files
+.venv/
+__pycache__/
+.pytest_cache/
+.DS_Store
+
+# Files the demo agent writes
+primes.py
+test_primes.py
